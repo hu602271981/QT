@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DiastatisticsMana</class>
+ <widget class="QDialog" name="DiastatisticsMana">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>546</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(134,237,231)</string>
+  </property>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>69</x>
+     <y>11</y>
+     <width>103</width>
+     <height>383</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="close">
+      <property name="minimumSize">
+       <size>
+        <width>101</width>
+        <height>101</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton { background-color: rgb(134,237,231); border-radius: 3px; color: rgb(255, 255, 255); } QPushButton:focus { background-color: rgb(244,236,2); }</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="pingbao.qrc">
+        <normaloff>:/new/prefix1/ICON/6/1 (68).png</normaloff>:/new/prefix1/ICON/6/1 (68).png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>85</width>
+        <height>85</height>
+       </size>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;数据统计&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;功能关闭&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>189</x>
+     <y>11</y>
+     <width>103</width>
+     <height>383</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QPushButton" name="open">
+      <property name="minimumSize">
+       <size>
+        <width>101</width>
+        <height>101</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton { background-color: rgb(134,237,231); border-radius: 3px; color: rgb(255, 255, 255); } QPushButton:focus { background-color: rgb(244,236,2); }</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="pingbao.qrc">
+        <normaloff>:/new/prefix1/ICON/6/1 (69).png</normaloff>:/new/prefix1/ICON/6/1 (69).png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>85</width>
+        <height>85</height>
+       </size>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;数据统计&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;功能开启&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>309</x>
+     <y>11</y>
+     <width>103</width>
+     <height>429</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <widget class="QPushButton" name="clear">
+      <property name="minimumSize">
+       <size>
+        <width>101</width>
+        <height>101</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton { background-color: rgb(134,237,231); border-radius: 3px; color: rgb(255, 255, 255); } QPushButton:focus { background-color: rgb(244,236,2); }</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="pingbao.qrc">
+        <normaloff>:/new/prefix1/ICON/6/1 (61).png</normaloff>:/new/prefix1/ICON/6/1 (61).png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>85</width>
+        <height>85</height>
+       </size>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;清除&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;统计数据&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>close</tabstop>
+  <tabstop>open</tabstop>
+  <tabstop>clear</tabstop>
+ </tabstops>
+ <resources>
+  <include location="pingbao.qrc"/>
+ </resources>
+ <connections/>
+</ui>
